@@ -1,0 +1,38 @@
+services:
+  mc:
+    image: itzg/minecraft-server
+    environment:
+      EULA: TRUE
+      MOD_PLATFORM: MODRINTH
+      MODRINTH_MODPACK: /pack.mrpack
+      ONLINE_MODE: FALSE
+      MEMORY: 5G
+      MOTD: "mmmh, §e§obanana§r..."
+#      ICON: /data/icon.png
+      ALLOW_FLIGHT: TRUE
+      MAX_TICK_TIME: -1
+      SNOOPER_ENABLED: FALSE
+      RCON_PASSWORD: ${RCON_PASSWORD}
+    ports:
+      - "28526:25565"
+    expose:
+      - 25575
+    volumes:
+      - world_data:/data
+      - ./config:/data/config:z
+      - ./pack.mrpack:/pack.mrpack:z
+    restart: "no"
+
+#  backup:
+#    image: alpine
+#    depends_on:
+#      mc:
+#        condition: service_completed_successfully
+#    volumes:
+#      - world_data:/data
+#      - $BACKUP_PATH:/backup
+#    command: sh -c 'tar -vzC /data -c world > /backup/$(date +%F_%H-%M-%S.tar.gz)'
+
+volumes:
+  home:
+  world_data:
