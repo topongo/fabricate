@@ -1,0 +1,13 @@
+name = "Loqui"
+filename = "Loqui-0.2.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/cMpxLYTx/versions/rOcGnAeK/Loqui-0.2.0.jar"
+hash-format = "sha512"
+hash = "2aa2329d4c26c7c28a57333af9af229f5eb2881655c12dfcb87410e0bdb03e72eda7dc52c1ea543f9803491e71a596e2f30e1b430389669d61cf0ff8d0083432"
+
+[update]
+[update.modrinth]
+mod-id = "cMpxLYTx"
+version = "rOcGnAeK"

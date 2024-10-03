@@ -1,0 +1,286 @@
+{
+    "text": {
+        "text": "Settings Create Extra",
+        "bold": true,
+        "color": "gold"
+    },
+    "description": "Enabling and disabling some build features",
+    "rules": [
+		{
+            "text": "Extended support for resource packs",
+            "description": "Mods that add support for optifine resource packs",
+            "controller": {
+                "type": "rules_group",
+                "collapsed": true,
+                "rules": [
+                    {
+                        "text": "Continuity",
+                        "description": "Connected textures",
+                        "controller": {
+                            "type": "boolean",
+                            "mod": "continuity"
+                        }
+                    },
+                    {
+                        "text": "Entity Texture Features",
+                        "description": "Custom texture support for entities in resourcepacks",
+                        "controller": {
+                            "type": "boolean",
+                            "mod": "entity_texture_features"
+                        }
+                    },
+                    {
+                        "text": "Entity Model Features",
+                        "description": "Custom Entity Model support",
+                        "controller": {
+                            "type": "boolean",
+                            "mod": "entity_model_features"
+                        }
+                    }
+                ]
+            }
+        },
+		{
+            "text": "Mods for resource packs",
+            "description": "Mods for better adding and managing resource packs",
+            "controller": {
+                "type": "rules_group",
+                "collapsed": true,
+                "rules": [
+                    {
+                        "text": "Recursive Resources",
+                        "description": "Enhances the Resource Pack menu with folder support",
+                        "controller": {
+                            "type": "boolean",
+                            "mod": "recursiveresources"
+                        }
+                    },
+                    {
+                        "text": "RP Renames",
+                        "description": "Shows every renamed CIT and CEM (optifine) in extra anvil menu for better usage of resource packs with renames",
+                        "controller": {
+                            "type": "boolean",
+                            "mod": "rprenames"
+                        }
+                    },
+                    {
+                        "text": "Draggable Lists",
+                        "description": "Draggable resource packs, datapacks, servers and worlds",
+                        "controller": {
+                            "type": "boolean",
+                            "mod": "draggable_lists"
+                        }
+                    },
+                    {
+                        "text": "Resourcify",
+                        "description": "In-game resource pack, data pack and shader browser and updater",
+                        "controller": {
+                            "type": "boolean",
+                            "mod": "resourcify"
+                        }
+                    },
+                    {
+                        "text": "VTDownloader",
+                        "description": "Pick and download Vanilla Tweaks resource packs",
+                        "controller": {
+                            "type": "boolean",
+                            "mod": "vt_downloader"
+                        }
+                    }
+                ]
+            }
+        },
+		{
+            "text": {
+                "text": "Add-ons to Create",
+                "color": "gold"
+            },
+            "description": {
+                "text": "Attention! If some mods from the suggested list are disabled on the server, they should also be disabled on the clients",
+                "color": "red"
+            },
+            "controller": {
+                "type": "rules_group",
+                "collapsed": true,
+                "rules": [
+                    {
+                        "text": "Create Crafts & Additions",
+                        "description": "Create Crafts & Additions extends Create and acts as a bridge between electricity and kinetic energy",
+                        "controller": {
+                          "type": "boolean",
+                          "mod": "createaddition"
+                        }
+                    },
+                    {
+                        "text": "Create Deco",
+                        "description": "Decorative options for your Create factory",
+                        "controller": {
+                          "type": "boolean",
+                          "mod": "createdeco"
+                        }
+                    },
+                    {
+                        "text": "Create Enchantment Industry",
+                        "description": "Automatic Enchanting, with Create",
+                        "controller": {
+                          "type": "boolean",
+                          "mod": "create_enchantment_industry"
+                        }
+                    },
+                    {
+                        "text": "Create Big Cannons",
+                        "description": "A Minecraft mod for building large cannons with the Create mod",
+                        "controller": {
+                          "type": "boolean",
+                          "mod": "createbigcannons"
+                        }
+                    },
+                    {
+                        "text": "Create Googles",
+                        "description": "Adds Helmets with Create Mod Goggle Function and Vanilla Armorstats",
+                        "controller": {
+                          "type": "boolean",
+                          "mod": "creategoggles"
+                        }
+                    },
+                    {
+                        "text": "Create Steam 'n' Rails",
+                        "description": "Create rail systems and steam system",
+                        "controller": {
+                          "type": "boolean",
+                          "mod": "railways"
+                        }
+                    },
+                    {
+                        "text": "Create Slice & Dice",
+                        "description": "Making automation for Farmers Delight more sensible",
+                        "controller": {
+                          "type": "boolean",
+                          "mod": "sliceanddice"
+                        }
+                    },
+                    {
+                        "text": "Create Structures",
+                        "description": "Adds new structures using Create",
+                        "controller": {
+                          "type": "boolean",
+                          "mod": "create_structures"
+                        }
+                    }
+                ]
+            }
+        },
+		{
+            "text": {
+                "text": "Client Mods",
+                "color": "green"
+            },
+            "description": {
+                "text": "Mods that are designed for the client\n\n",
+                "color": "green"
+            },
+            "controller": {
+                "type": "rules_group",
+                "collapsed": true,
+                "rules": [
+                    {
+                        "text": "Blur",
+                        "description": "Adds a blur effect to all GUI backgrounds",
+                        "controller": {
+                            "type": "boolean",
+                            "mod": "blur"
+                        }
+                    },
+                    {
+                        "text": "Replay Mod",
+                        "description": "A Minecraft Mod to record, relive and share your experience",
+                        "controller": {
+                            "type": "boolean",
+                            "mod": "replaymod"
+                        }
+                    },
+                    {
+                        "text": "Capes",
+                        "description": "Lets you use capes from OptiFine, LabyMod and other cape mods",
+                        "controller": {
+                            "type": "boolean",
+                            "mod": "capes"
+                        }
+                    },
+                    {
+                        "text": "Ambient Sounds",
+                        "description": "Adds more ambiance to a Minecraft world",
+                        "controller": {
+                            "type": "boolean",
+                            "mod": "ambientsounds"
+                        }
+                    },
+                    {
+                        "text": "Not Enough Animations",
+                        "description": "Bringing first-person animations to the third-person",
+                        "controller": {
+                            "type": "boolean",
+                            "mod": "notenoughanimations"
+                        }
+                    },
+                    {
+                        "text": "Better F3",
+                        "description": "BetterF3 is a mod that replaces Minecraft's original debug HUD with a highly customizable, more human-readable HUD",
+                        "controller": {
+                          "type": "boolean",
+                          "mod": "betterf3"
+                        }
+                    },
+                    {
+                        "text": "Fabrishot",
+                        "description": "Take insanely large screenshots",
+                        "controller": {
+                          "type": "boolean",
+                          "mod": "fabrishot"
+                        }
+                    },
+                    {
+                        "text": "Presence Footsteps",
+                        "description": "An overly complicated sound mod",
+                        "controller": {
+                            "type": "boolean",
+                            "mod": "presencefootsteps"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "text": {
+                "text": "Server mods",
+                "color": "red"
+            },
+            "description": {
+                "text": "Attention! If some mods from the suggested list are disabled on the server, they should also be disabled on the clients",
+                "color": "red"
+            },
+            "controller": {
+                "type": "rules_group",
+                "collapsed": true,
+                "rules": [
+                    {
+                        "text": "Another Furniture",
+                        "description": "Decorating your home just got better!",
+                        "controller": {
+                            "type": "boolean",
+                            "mod": "another_furniture"
+                        }
+                    },
+                    {
+                        "text": "BeansBackpacks",
+                        "description": "A Backpack mod where Aesthetics meet Functionality",
+                        "controller": {
+                            "type": "boolean",
+                            "mod": "beansbackpacks"
+                        }
+                    }
+                ]
+            }
+        }
+	]
+}

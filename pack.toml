@@ -1,0 +1,13 @@
+name = "Fabricate"
+author = "topongo"
+version = "3.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "49798c0a6ddee84e1ca871ceb8988965e58328e49e0ecfe581f29019973ee3e3"
+
+[versions]
+fabric = "0.16.5"
+minecraft = "1.20.1"

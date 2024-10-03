@@ -1,0 +1,39 @@
+{
+	"maximumStacks": {
+		// Range: 1 - 32
+		"leather": 4,
+		// Range: 1 - 32
+		"winged": 4,
+		// Range: 1 - 32
+		"metal": 7,
+		// Range: 1 - 8
+		"ender": 4,
+		// Range: 1 - 128 | 0 to disable
+		"pot": 128,
+		// Range: 1 - 128 | 0 to disable
+		"cauldron": 24
+	},
+	"clientConfig": {
+		// HIDDEN / HIDE_ABLE / SHOWN
+		"menuVisibility": "HIDE_ABLE",
+		"hiddenHelpTabs": "",
+		"instantPlace": false,
+		// VANILLA / COMPACT / INTEGRATED
+		"tooltipType": "COMPACT"
+	},
+	// Players may still change these values on a per-world basis
+	"gamerules": {
+		// Equipped backpacks are locked to other players if hotkey isn't pressed
+		"lockBackpackNoKey": false,
+		// Lock placed Backpacks if a player did not place it
+		"lockBackpackNotOwner": false,
+		// Lock placed Backpacks while their owner is offline
+		"lockBackpackOffline": false,
+		// Lock Ender Backpacks while their owner is offline
+		"lockEnderOffline": false,
+		// Unbind an equipped Ender Backpack when the player dies
+		"unbindEnderOnDeath": false,
+		// Does the player keep their Back Slot on death
+		"keepBackSlot": false
+	}
+}
