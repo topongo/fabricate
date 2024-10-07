@@ -4,15 +4,16 @@ services:
     environment:
       EULA: TRUE
       MOD_PLATFORM: MODRINTH
-      MODRINTH_MODPACK: /pack.mrpack
+      MODRINTH_MODPACK: "https://modrinth.com/modpack/fabricate"
       ONLINE_MODE: FALSE
-      MEMORY: 5G
+      MEMORY: ${MC_MEMORY:?}
       MOTD: "mmmh, §e§obanana§r..."
-#      ICON: /data/icon.png
       ALLOW_FLIGHT: TRUE
       MAX_TICK_TIME: -1
       SNOOPER_ENABLED: FALSE
-      RCON_PASSWORD: ${RCON_PASSWORD}
+      RCON_PASSWORD: ${RCON_PASSWORD:?}
+    env_file:
+      - ./.mc.env
     ports:
       - "28526:25565"
     expose:
@@ -20,7 +21,6 @@ services:
     volumes:
       - world_data:/data
       - ./config:/data/config:z
-      - ./pack.mrpack:/pack.mrpack:z
     restart: "no"
 
 #  backup:
