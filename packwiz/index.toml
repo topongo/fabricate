@@ -842,6 +842,11 @@ hash = "e948385136e0f372f4a8b35f04221b4cc5e3786ce498fc321a394ad1258dc032"
 metafile = true
 
 [[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "79d7ddc34183fa37ea650a5528addb4b6938384a6f65987db0d4f5a916e2fa5a"
+metafile = true
+
+[[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "fd77e006784011c82874203471f3d5a2af44aa817803344e252b2d9d35d12cdf"
 metafile = true
@@ -1107,11 +1112,6 @@ hash = "3d41978dc3fd1d7b7eebe51a7c04e49707e7e7c66f764a1bed0cc214e4032995"
 metafile = true
 
 [[files]]
-file = "mods/interactive.pw.toml"
-hash = "a12098d8857d693e514cca569eb529020a9b0fdc04e1a9ce4fcd5bd4a5fc1ea8"
-metafile = true
-
-[[files]]
 file = "mods/interiors.pw.toml"
 hash = "8ecd4fc3540d7f1bdb1a442d54fbc042fcd97c49607795bda92b5106a145eec4"
 metafile = true
@@ -1304,11 +1304,6 @@ metafile = true
 [[files]]
 file = "mods/trinkets.pw.toml"
 hash = "ffdb79f5bc29f990e5889f5d159a043c7046b8cd8d79f17f54b44d7ccc2b242a"
-metafile = true
-
-[[files]]
-file = "mods/valkyrien-skies.pw.toml"
-hash = "bc7e0f9a0c6c0a07b3d9b5d43ca3891356a841ba71b25e148d237c7f7342a51d"
 metafile = true
 
 [[files]]
