@@ -1,12 +1,12 @@
 name = "Fabricate"
 author = "topongo"
-version = "3.2.0"
+version = "3.3.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "b302372e1f80dd85ec218f1e5ecee66730ca0d4cb3a4096265d30c8972542ecd"
+hash = "24712c7eb387e48b7201a1e55a81bde865db03e2931b43200e6ee1355a767c4d"
 
 [versions]
 fabric = "0.16.5"

@@ -847,6 +847,11 @@ hash = "79d7ddc34183fa37ea650a5528addb4b6938384a6f65987db0d4f5a916e2fa5a"
 metafile = true
 
 [[files]]
+file = "mods/cccbridge.pw.toml"
+hash = "2674266f233fb1e453d04642d6f04e8d6e0676a51951b81716a7aa8d5d4b817b"
+metafile = true
+
+[[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "fd77e006784011c82874203471f3d5a2af44aa817803344e252b2d9d35d12cdf"
 metafile = true
@@ -1182,6 +1187,11 @@ hash = "f40488b90039380bde4615baca056eaec3afb62defccd7301a15af1c602970c3"
 metafile = true
 
 [[files]]
+file = "mods/modmenu.pw.toml"
+hash = "d7145fd1bd8b4bb6a3b84652a96a68870fb3ab32230f27520bb9362fd17ec39f"
+metafile = true
+
+[[files]]
 file = "mods/moonlight.pw.toml"
 hash = "e7204e52e61c37d96c0362b4ec69cb96ef04a2c66c7c60dc46e59aa7cc029bd3"
 metafile = true
@@ -1299,6 +1309,11 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "fadb1aaba6c522a2cfccbc04366ebbf49bcfc336ea1f96f3ff59781ce8b94d2d"
+metafile = true
+
+[[files]]
+file = "mods/toms-peripherals.pw.toml"
+hash = "16076f28cdb0bcf562395c10dd3c052591a5261a8db7018d12e41052d863d7eb"
 metafile = true
 
 [[files]]
