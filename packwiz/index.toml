@@ -882,6 +882,11 @@ hash = "41a3dc271859b118417946d2fdb2408523563b2f4f49048073672a342fb1aebf"
 metafile = true
 
 [[files]]
+file = "mods/coffins.pw.toml"
+hash = "f553e2445fb1f9dc98ff343a5b4e84631f2f5499c3cfb0015056273d73d73c8a"
+metafile = true
+
+[[files]]
 file = "mods/continuity.pw.toml"
 hash = "14a5af2b7faa6df33e76e7b704eaa398d78a6026c5c996bc5ea13ae02e5d6b74"
 metafile = true
@@ -1082,11 +1087,6 @@ hash = "1e0d35e8a6627461696a9ba379cfe6f1c4210728d9b664f3611dc20c1acd4217"
 metafile = true
 
 [[files]]
-file = "mods/first-person-model.pw.toml"
-hash = "f383ea26b365cb2d48a999f951fafd3e74d3d9f9f6bacd5c9bc51a829493d0c0"
-metafile = true
-
-[[files]]
 file = "mods/forge-config-api-port.pw.toml"
 hash = "5213b7d2f88e92f1903295de37db55684656a66b1e85b791673500947088340a"
 metafile = true
@@ -1202,6 +1202,11 @@ hash = "b6685e98fce8f1f45868b9df3dbaa410ec23bb64896c826be596d98b01326116"
 metafile = true
 
 [[files]]
+file = "mods/mystical-oak-tree.pw.toml"
+hash = "77b1b462c5717cf66d59f9a1a906b6afb526488a7d16c109082d4a64b1e4967d"
+metafile = true
+
+[[files]]
 file = "mods/necronomicon.pw.toml"
 hash = "0a51aa853f7ec0323cabc98e9c6957e35f8e8581f1ee5ce12eb95d0e98665fc2"
 metafile = true
@@ -1259,11 +1264,6 @@ metafile = true
 [[files]]
 file = "mods/simple-discord-rpc.pw.toml"
 hash = "3c398cf79509a5aa51bb2c4ba73d2777300fd2b4dd750246be963d5e9342209a"
-metafile = true
-
-[[files]]
-file = "mods/simple-voice-chat.pw.toml"
-hash = "6555ec5e9839c367ff8494d7856587999e5e3f3d4832287661a552033ec15048"
 metafile = true
 
 [[files]]
