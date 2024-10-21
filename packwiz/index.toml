@@ -1336,11 +1336,6 @@ hash = "5776578d47cfd34ce004b0fbe700ba4ea94e4b0c59f975a7a9100bb27bd13fa4"
 metafile = true
 
 [[files]]
-file = "mods/telluriumforge.pw.toml"
-hash = "478e67572c614a53a71cc301bceeda6d5cdf5f993779b6318d4d9106c2625725"
-metafile = true
-
-[[files]]
 file = "mods/terrablender.pw.toml"
 hash = "eceaa5e6f1dea391102ea4beb66a6c7da72978a324a90bba0e429bac776cb121"
 metafile = true
@@ -1353,11 +1348,6 @@ metafile = true
 [[files]]
 file = "mods/trinkets.pw.toml"
 hash = "4fa32d82cb31f1be5d82aff5a69983ee0deec113dc2f8b70a04fd90b94cc1929"
-metafile = true
-
-[[files]]
-file = "mods/turtle-charging-station.pw.toml"
-hash = "fe636d488196e7544cca963d53b8f5f823aa291a446c379f43a94406f8a1cb92"
 metafile = true
 
 [[files]]
